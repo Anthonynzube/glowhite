@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1588276071">
+  <project timestamp="1588276071">
+    <package name="App\Console">
+      <file name="C:\code\laravel-default\app/Console/Kernel.php">
+        <class name="Kernel" namespace="App\Console">
+          <metrics methods="2" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="4" coveredstatements="0" elements="6" coveredelements="0"/>
+        </class>
+        <line num="25" type="method" name="schedule" crap="2" count="0"/>
+        <line num="28" type="stmt" count="0"/>
+        <line num="35" type="method" name="commands" crap="2" count="0"/>
+        <line num="37" type="stmt" count="0"/>
+        <line num="39" type="stmt" count="0"/>
+        <line num="40" type="stmt" count="0"/>
+        <line num="42" type="stmt" count="0"/>
+        <metrics loc="41" ncloc="21" classes="1" methods="2" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="4" coveredstatements="0" elements="6" coveredelements="0"/>
+      </file>
+    </package>
+    <package name="App\Exceptions">
+      <file name="C:\code\laravel-default\app/Exceptions/Handler.php">
+        <class name="Handler" namespace="App\Exceptions">
+          <metrics methods="2" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="0" elements="5" coveredelements="0"/>
+        </class>
+        <line num="37" type="method" name="report" crap="2" count="0"/>
+        <line num="39" type="stmt" count="0"/>
+        <line num="40" type="stmt" count="0"/>
+        <line num="51" type="method" name="render" crap="2" count="0"/>
+        <line num="53" type="stmt" count="0"/>
+        <line num="56" type="stmt" count="0"/>
+        <metrics loc="55" ncloc="26" classes="1" methods="2" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="0" elements="5" coveredelements="0"/>
+      </file>
+    </package>
+    <package name="App\Http\Controllers">
+      <file name="C:\code\laravel-default\app/Http/Controllers/Controller.php">
+        <class name="Controller" namespace="App\Http\Controllers">
+          <metrics methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <line num="14" type="stmt" count="0"/>
+        <metrics loc="13" ncloc="13" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+    </package>
+    <package name="App\Http">
+      <file name="C:\code\laravel-default\app/Http/Kernel.php">
+        <class name="Kernel" namespace="App\Http">
+          <metrics methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <line num="67" type="stmt" count="0"/>
+        <metrics loc="66" ncloc="45" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+    </package>
+    <package name="App\Http\Middleware">
+      <file name="C:\code\laravel-default\app/Http/Middleware/Authenticate.php">
+        <class name="Authenticate" namespace="App\Http\Middleware">
+          <metrics methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="0" elements="4" coveredelements="0"/>
+        </class>
+        <line num="15" type="method" name="redirectTo" crap="6" count="0"/>
+        <line num="17" type="stmt" count="0"/>
+        <line num="18" type="stmt" count="0"/>
+        <line num="20" type="stmt" count="0"/>
+        <line num="22" type="stmt" count="0"/>
+        <metrics loc="21" ncloc="15" classes="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="0" elements="4" coveredelements="0"/>
+      </file>
+      <file name="C:\code\laravel-default\app/Http/Middleware/CheckForMaintenanceMode.php">
+        <class name="CheckForMaintenanceMode" namespace="App\Http\Middleware">
+          <metrics methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <line num="18" type="stmt" count="0"/>
+        <metrics loc="17" ncloc="10" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="C:\code\laravel-default\app/Http/Middleware/EncryptCookies.php">
+        <class name="EncryptCookies" namespace="App\Http\Middleware">
+          <metrics methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <line num="18" type="stmt" count="0"/>
+        <metrics loc="17" ncloc="10" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="C:\code\laravel-default\app/Http/Middleware/RedirectIfAuthenticated.php">
+        <class name="RedirectIfAuthenticated" namespace="App\Http\Middleware">
+          <metrics methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="0" elements="4" coveredelements="0"/>
+        </class>
+        <line num="19" type="method" name="handle" crap="6" count="0"/>
+        <line num="21" type="stmt" count="0"/>
+        <line num="22" type="stmt" count="0"/>
+        <line num="25" type="stmt" count="0"/>
+        <line num="28" type="stmt" count="0"/>
+        <metrics loc="27" ncloc="19" classes="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="0" elements="4" coveredelements="0"/>
+      </file>
+      <file name="C:\code\laravel-default\app/Http/Middleware/TrimStrings.php">
+        <class name="TrimStrings" namespace="App\Http\Middleware">
+          <metrics methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <line num="19" type="stmt" count="0"/>
+        <metrics loc="18" ncloc="13" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="C:\code\laravel-default\app/Http/Middleware/TrustProxies.php">
+        <class name="TrustProxies" namespace="App\Http\Middleware">
+          <metrics methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <line num="24" type="stmt" count="0"/>
+        <metrics loc="23" ncloc="13" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="C:\code\laravel-default\app/Http/Middleware/VerifyCsrfToken.php">
+        <class name="VerifyCsrfToken" namespace="App\Http\Middleware">
+          <metrics methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <line num="18" type="stmt" count="0"/>
+        <metrics loc="17" ncloc="10" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+    </package>
+    <package name="App\Providers">
+      <file name="C:\code\laravel-default\app/Providers/AppServiceProvider.php">
+        <class name="AppServiceProvider" namespace="App\Providers">
+          <metrics methods="2" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="0" elements="4" coveredelements="0"/>
+        </class>
+        <line num="14" type="method" name="register" crap="2" count="0"/>
+        <line num="17" type="stmt" count="0"/>
+        <line num="24" type="method" name="boot" crap="2" count="0"/>
+        <line num="27" type="stmt" count="0"/>
+        <line num="29" type="stmt" count="0"/>
+        <metrics loc="28" ncloc="14" classes="1" methods="2" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="0" elements="4" coveredelements="0"/>
+      </file>
+      <file name="C:\code\laravel-default\app/Providers/AuthServiceProvider.php">
+        <class name="AuthServiceProvider" namespace="App\Providers">
+          <metrics methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="0" elements="3" coveredelements="0"/>
+        </class>
+        <line num="24" type="method" name="boot" crap="2" count="0"/>
+        <line num="26" type="stmt" count="0"/>
+        <line num="29" type="stmt" count="0"/>
+        <line num="31" type="stmt" count="0"/>
+        <metrics loc="30" ncloc="16" classes="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="0" elements="3" coveredelements="0"/>
+      </file>
+      <file name="C:\code\laravel-default\app/Providers/BroadcastServiceProvider.php">
+        <class name="BroadcastServiceProvider" namespace="App\Providers">
+          <metrics methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="0" elements="4" coveredelements="0"/>
+        </class>
+        <line num="15" type="method" name="boot" crap="2" count="0"/>
+        <line num="17" type="stmt" count="0"/>
+        <line num="19" type="stmt" count="0"/>
+        <line num="20" type="stmt" count="0"/>
+        <line num="22" type="stmt" count="0"/>
+        <metrics loc="21" ncloc="16" classes="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="0" elements="4" coveredelements="0"/>
+      </file>
+      <file name="C:\code\laravel-default\app/Providers/EventServiceProvider.php">
+        <class name="EventServiceProvider" namespace="App\Providers">
+          <metrics methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="0" elements="3" coveredelements="0"/>
+        </class>
+        <line num="28" type="method" name="boot" crap="2" count="0"/>
+        <line num="30" type="stmt" count="0"/>
+        <line num="33" type="stmt" count="0"/>
+        <line num="35" type="stmt" count="0"/>
+        <metrics loc="34" ncloc="22" classes="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="0" elements="3" coveredelements="0"/>
+      </file>
+      <file name="C:\code\laravel-default\app/Providers/RouteServiceProvider.php">
+        <class name="RouteServiceProvider" namespace="App\Providers">
+          <metrics methods="4" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="14" coveredstatements="0" elements="18" coveredelements="0"/>
+        </class>
+        <line num="31" type="method" name="boot" crap="2" count="0"/>
+        <line num="35" type="stmt" count="0"/>
+        <line num="36" type="stmt" count="0"/>
+        <line num="43" type="method" name="map" crap="2" count="0"/>
+        <line num="45" type="stmt" count="0"/>
+        <line num="47" type="stmt" count="0"/>
+        <line num="50" type="stmt" count="0"/>
+        <line num="59" type="method" name="mapWebRoutes" crap="2" count="0"/>
+        <line num="61" type="stmt" count="0"/>
+        <line num="62" type="stmt" count="0"/>
+        <line num="63" type="stmt" count="0"/>
+        <line num="64" type="stmt" count="0"/>
+        <line num="73" type="method" name="mapApiRoutes" crap="2" count="0"/>
+        <line num="75" type="stmt" count="0"/>
+        <line num="76" type="stmt" count="0"/>
+        <line num="77" type="stmt" count="0"/>
+        <line num="78" type="stmt" count="0"/>
+        <line num="79" type="stmt" count="0"/>
+        <line num="81" type="stmt" count="0"/>
+        <metrics loc="80" ncloc="40" classes="1" methods="4" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="14" coveredstatements="0" elements="18" coveredelements="0"/>
+      </file>
+    </package>
+    <package name="App">
+      <file name="C:\code\laravel-default\app/User.php">
+        <class name="User" namespace="App">
+          <metrics methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <line num="40" type="stmt" count="0"/>
+        <metrics loc="39" ncloc="24" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+    </package>
+    <metrics files="17" loc="547" ncloc="327" classes="17" methods="15" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="36" coveredstatements="0" elements="51" coveredelements="0"/>
+  </project>
+</coverage>
