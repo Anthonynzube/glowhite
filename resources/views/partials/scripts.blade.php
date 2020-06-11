@@ -2,38 +2,38 @@
 ============================================ -->
 
 <!-- Modernizer JS -->
-<script src="{{ asset('js/vendor/modernizr-3.6.0.min.js') }}"></script>
+<script src="{{ asset('js/vendor/modernizr-3.6.0.min.js') }}" defer></script>
 <!-- jquery -->
-<script src="{{ asset('js/vendor/jquery-3.3.1.min.js') }}"></script>
+<script src="{{ asset('js/vendor/jquery-3.3.1.min.js') }}" async></script>
 <!-- Popper JS -->
-<script src="{{ asset('js/vendor/popper.js') }}"></script>
+<script src="{{ asset('js/vendor/popper.js') }}" defer></script>
 <!-- Bootstrap JS -->
-<script src="{{ asset('js/vendor/bootstrap.min.js') }}"></script>
-<script src="{{ asset('js/plugins/owl-carousel.js') }}"></script>
-<script src="{{ asset('js/plugins/slick.js') }}"></script>
-<script src="{{ asset('js/plugins/jarallax.min.js') }}"></script>
-<script src="{{ asset('js/plugins/countdown.js') }}"></script>
-<script src="{{ asset('js/plugins/magnific-popup.js') }}"></script>
-<script src="{{ asset('js/plugins/instafeed.js') }}"></script>
-<script src="{{ asset('js/plugins/tilt.js') }}"></script>
-<script src="{{ asset('js/plugins/images-loaded.js') }}"></script>
-<script src="{{ asset('js/plugins/isotope.js') }}"></script>
-<script src="{{ asset('js/plugins/scrolloverflow-fullpage.js') }}"></script>
-<script src="{{ asset('js/plugins/fullpage.js') }}"></script>
-<script src="{{ asset('js/plugins/jquery-ui-touch-punch.js') }}"></script>
-<script src="{{ asset('js/plugins/jquery-ui.js') }}"></script>
-<script src="{{ asset('js/plugins/easyzoom.js') }}"></script>
-<script src="{{ asset('js/plugins/resizesensor.js') }}"></script>
-<script src="{{ asset('js/plugins/sticky-sidebar.js') }}"></script>
-<script src="{{ asset('js/plugins/scrollup.js') }}"></script>
-<script src="{{ asset('js/plugins/select2.min.js') }}"></script>
-<script src="{{ asset('js/plugins/cookie.js') }}"></script>
-<script src="{{ asset('js/plugins/bpopup.js') }}"></script>
-<script src="{{ asset('js/plugins/wow.js') }}"></script>
-<script src="{{ asset('js/plugins/ajax-mail.js') }}"></script>
+<script src="{{ asset('js/vendor/bootstrap.min.js') }}" async></script>
+<script src="{{ asset('js/plugins/owl-carousel.js') }}" defer></script>
+<script src="{{ asset('js/plugins/slick.js') }}" defer></script>
+<script src="{{ asset('js/plugins/jarallax.min.js') }}" defer></script>
+<script src="{{ asset('js/plugins/countdown.js') }}" defer></script>
+<script src="{{ asset('js/plugins/magnific-popup.js') }}" defer></script>
+<script src="{{ asset('js/plugins/instafeed.js') }}" defer></script>
+<script src="{{ asset('js/plugins/tilt.js') }}" defer></script>
+<script src="{{ asset('js/plugins/images-loaded.js') }}" defer></script>
+<script src="{{ asset('js/plugins/isotope.js') }}" defer></script>
+<script src="{{ asset('js/plugins/scrolloverflow-fullpage.js') }}" defer></script>
+<script src="{{ asset('js/plugins/fullpage.js') }}" defer></script>
+<script src="{{ asset('js/plugins/jquery-ui-touch-punch.js') }}" defer></script>
+<script src="{{ asset('js/plugins/jquery-ui.js') }}" defer></script>
+<script src="{{ asset('js/plugins/easyzoom.js') }}" defer></script>
+<script src="{{ asset('js/plugins/resizesensor.js') }}" defer></script>
+<script src="{{ asset('js/plugins/sticky-sidebar.js') }}" defer></script>
+<script src="{{ asset('js/plugins/scrollup.js') }}" defer></script>
+<script src="{{ asset('js/plugins/select2.min.js') }}" defer></script>
+<script src="{{ asset('js/plugins/cookie.js') }}" defer></script>
+<script src="{{ asset('js/plugins/bpopup.js') }}" defer></script>
+<script src="{{ asset('js/plugins/wow.js') }}" defer></script>
+<script src="{{ asset('js/plugins/ajax-mail.js') }}" defer></script>
 <!-- Main JS -->
-<script src="{{ asset('js/main.js') }}"></script>
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAYNfZ-tL7Q_kGLMO4Y5xz4lCl70V74AF4"></script>
+<script src="{{ asset('js/main.js') }}" async></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAYNfZ-tL7Q_kGLMO4Y5xz4lCl70V74AF4" defer></script>
 <script>
     function init() {
         var mapOptions = {

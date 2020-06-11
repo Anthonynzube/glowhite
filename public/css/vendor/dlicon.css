@@ -1,5 +1,5 @@
 /*============================
-    Dliconoutline 
+    Dliconoutline
 ===============================*/
 
 
@@ -7,7 +7,8 @@
     font-family: 'dliconoutline';
     src: url('../../fonts/dlicon.woff2') format('woff2'), url('../../fonts/dlicon.woff') format('woff'), url('../../fonts/dlicon.ttf') format('truetype');
     font-weight: 400;
-    font-style: normal
+    font-style: normal;
+    font-display: swap;
 }
 
 .woocommerce form .form-row .required {
