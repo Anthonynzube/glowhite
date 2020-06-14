@@ -13,13 +13,18 @@
 
     <link rel="stylesheet" href="{{ asset('css/vendor/bootstrap.min.css') }}">
     <link rel="stylesheet" href="{{ asset('css/style.min.css') }}">
+
+    <style>
+
+    </style>
 </head>
 <body>
 <div class="container-fluid p-0">
     <div class="comming-soon-area " style="background-image: url('images/bg.jpg'); background-repeat: no-repeat;
         background-size: cover;">
-        <div class="row no-gutters comming-soon-align align-items-end">
+        <div class="row no-gutters comming-soon-align align-items-center">
             <div class="col-lg-12">
+
                 <div class="comming-soon-content" style=" margin-left: 6rem">
                     <h3>Glowhite Cosmetics</h3>
                     <h1>Coming Very Soon</h1>
