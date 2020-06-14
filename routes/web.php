@@ -12,11 +12,10 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
+Route::get('/', 'PageController@coming');
 
-Route::middleware('cache.headers:private;max_age=3600')->group(function() {
-    Route::get('/', 'PageController@home')->name('home');
-    Route::get('/about', 'PageController@about')->name('about');
-    Route::get('/contact', 'PageController@contact')->name('contact');
-});
+Route::get('/beta', 'PageController@home')->name('home');
+Route::get('/about', 'PageController@about')->name('about');
+Route::get('/contact', 'PageController@contact')->name('contact');
 
 Route::get('/instagram', 'PageController@instagram')->name('instagram');

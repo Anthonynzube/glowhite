@@ -23,4 +23,8 @@ class PageController extends Controller
     {
         return view('instagram');
     }
+    public function coming()
+    {
+        return view('coming');
+    }
 }
