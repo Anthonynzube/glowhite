@@ -24,7 +24,7 @@
                 <div class="col-xl-4 col-lg-8">
                     <div class="logo logo-width text-center">
                         <a href="{{ route('home') }}">
-                            <img src="{{ asset('images/logo/logo-furniture-02.png') }}" alt="logo">
+                            <img src="{{ asset('images/logo/logo.svg') }}" alt="logo">
                         </a>
                     </div>
                 </div>
@@ -46,7 +46,7 @@
                 <div class="col-6">
                     <div class="mobile-logo logo-width">
                         <a href="{{ route('home') }}">
-                            <img alt="" src="{{ asset('images/logo/logo.png') }}">
+                            <img alt="" src="{{ asset('images/logo/mobile-logo.svg') }}">
                         </a>
                     </div>
                 </div>
