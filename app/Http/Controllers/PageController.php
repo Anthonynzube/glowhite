@@ -27,4 +27,20 @@ class PageController extends Controller
     {
         return view('coming');
     }
+    public function moisturizers()
+    {
+        return view('moisturizer');
+    }
+    public function serums()
+    {
+        return view('serum');
+    }
+    public function cleansers()
+    {
+        return view('cleanser');
+    }
+    public function toolkit()
+    {
+        return view('toolkit');
+    }
 }

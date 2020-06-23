@@ -12,7 +12,7 @@
                         <div class="fullpage-first-slide-content fullpage-pl-300">
                             <h2 class="wow fadeInLeft" data-wow-delay="1.25s" style="color: #6F6F6F;">Lightening Toning Creamy, <br>Moisturizers</h2>
                             <div class="btn-style-1 wow fadeInUp" data-wow-delay="1.25s">
-                                <a href="product-details.html" style="border: 2px solid #EC1C24;">
+                                <a href="{{ route('moisturizers') }}" style="border: 2px solid #EC1C24;">
                                     <div class=" btn-ptb-3 btn-viewmore-common btn-font-2 btn-letter-sp">
                                         <span style="color: #EC1C24">DISCOVER NOW</span>
                                     </div>
@@ -38,7 +38,7 @@
                         <div class="fullpage-first-slide-content fullpage-pl-300">
                             <h2 class="wow bounceInLeft" data-wow-delay="1" style="color: #fff7f7">Extra Whitening, <br>Moisturizing Serums</h2>
                             <div class="btn-style-1 wow bounceInLeft" data-wow-delay="1">
-                                <a href="product-details.html" style="border: 2px solid #fff7f7">
+                                <a href="{{ route('serums') }}" style="border: 2px solid #fff7f7">
                                     <div class="btn-ptb-3 btn-viewmore-common btn-font-2 btn-letter-sp">
                                         <span style="color: #fff7f7">DISCOVER NOW</span>
                                     </div>
@@ -67,7 +67,7 @@
                         <div class="fullpage-first-slide-content fullpage-pl-80">
                             <h2 class=" wow bounceInRight" data-wow-delay="1" style="color: #FF9100">Exfoliating, Refreshing, <br>Lightening Cleansers</h2>
                             <div class="btn-style-1 wow bounceInRight" data-wow-delay="1">
-                                <a href="product-details.html" style="border: 2px solid #FF9100">
+                                <a href="{{ route('cleansers') }}" style="border: 2px solid #FF9100">
                                     <div class="btn-ptb-3 btn-viewmore-common btn-font-2 btn-letter-sp">
                                         <span style="color: #FF9100">DISCOVER NOW</span>
                                     </div>
@@ -91,7 +91,7 @@
                         <div class="fullpage-first-slide-content fullpage-pl-150">
                             <h2 class="wow bounceInRight" data-wow-delay="1" style="color: #fff7f7">"Heal Your Skin" <br>Toolkit</h2>
                             <div class="btn-style-1 wow bounceInRight" data-wow-delay="1">
-                                <a href="product-details.html" style="border: 2px solid #fff7f7">
+                                <a href="{{ route('toolkit') }}" style="border: 2px solid #fff7f7">
                                     <div class="btn-ptb-3 btn-viewmore-common btn-font-2 btn-letter-sp">
                                         <span style="color:  #fff7f7">DISCOVER NOW</span>
                                     </div>

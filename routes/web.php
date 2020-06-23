@@ -17,5 +17,9 @@ Route::get('/', 'PageController@coming');
 Route::get('/beta', 'PageController@home')->name('home');
 Route::get('/about', 'PageController@about')->name('about');
 Route::get('/contact', 'PageController@contact')->name('contact');
-
 Route::get('/instagram', 'PageController@instagram')->name('instagram');
+Route::get('/moisturizers', 'PageController@moisturizers')->name('moisturizers');
+Route::get('/serums', 'PageController@serums')->name('serums');
+Route::get('/cleansers', 'PageController@cleansers')->name('cleansers');
+Route::get('/toolkit', 'PageController@toolkit')->name('toolkit');
+
