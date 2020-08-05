@@ -16,9 +16,9 @@
                                     <div class=" btn-ptb-3 btn-viewmore-common btn-font-2 btn-letter-sp">
                                         <span style="color: #EC1C24">DISCOVER NOW</span>
                                     </div>
-{{--                                    <div class="btn-viewmore-hover btn-ptb-3 btn-viewmore-common btn-font-2 btn-letter-sp">--}}
-{{--                                        <span>DISCOVER NOW</span>--}}
-{{--                                    </div>--}}
+                                    <div class="btn-viewmore-hover-m btn-ptb-3 btn-viewmore-common btn-font-2 btn-letter-sp">
+                                        <span>DISCOVER NOW</span>
+                                    </div>
                                 </a>
                             </div>
                         </div>
@@ -42,7 +42,9 @@
                                     <div class="btn-ptb-3 btn-viewmore-common btn-font-2 btn-letter-sp">
                                         <span style="color: #fff7f7">DISCOVER NOW</span>
                                     </div>
-
+                                    <div class="btn-viewmore-hover-s btn-ptb-3 btn-viewmore-common btn-font-2 btn-letter-sp">
+                                        <span>DISCOVER NOW</span>
+                                    </div>
                                 </a>
                             </div>
                         </div>
@@ -71,7 +73,9 @@
                                     <div class="btn-ptb-3 btn-viewmore-common btn-font-2 btn-letter-sp">
                                         <span style="color: #FF9100">DISCOVER NOW</span>
                                     </div>
-
+                                    <div class="btn-viewmore-hover-c btn-ptb-3 btn-viewmore-common btn-font-2 btn-letter-sp">
+                                        <span>DISCOVER NOW</span>
+                                    </div>
                                 </a>
                             </div>
                         </div>
@@ -95,7 +99,9 @@
                                     <div class="btn-ptb-3 btn-viewmore-common btn-font-2 btn-letter-sp">
                                         <span style="color:  #fff7f7">DISCOVER NOW</span>
                                     </div>
-
+                                    <div class="btn-viewmore-hover-t btn-ptb-3 btn-viewmore-common btn-font-2 btn-letter-sp">
+                                        <span>DISCOVER NOW</span>
+                                    </div>
                                 </a>
                             </div>
                         </div>

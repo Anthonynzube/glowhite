@@ -43,10 +43,10 @@
                     <div class="footer-widget footer-info-list-2 footer-contect mb-30">
                         <h3 class="footer-title">Contact info</h3>
                         <ul>
-                            <li><i class="dlicon ui-2_time-clock"></i> Monday - Friday: 9:00 - 19:00</li>
-                            <li><i class="dlicon ui-1_email-83"></i> info@example.com</li>
-                            <li><i class="dlicon tech-2_rotate"></i> (+612) 2531 5600</li>
-                            <li><i class="dlicon ui-1_home-simple"></i> PO Box 1622 Colins Street West Victoria 8077 Australia</li>
+                            <li><i class="dlicon ui-2_time-clock"></i> Monday - Friday: 9:00 - 16:00</li>
+                            <li><i class="dlicon ui-1_email-83"></i> hello@glowhitecosmetics.com</li>
+                            <li><i class="dlicon tech-2_rotate"></i> +2348135869604 <br> +2348029493632</li>
+                            <li><i class="dlicon ui-1_home-simple"></i>Plot 7, Diamond Plaza, BBA Trade Fair Complex, Badagry Expressway Lagos.</li>
                         </ul>
                     </div>
                 </div>
@@ -61,7 +61,7 @@
             <div class="row">
                 <div class="col-12">
                     <div class="copyright-2 text-center">
-                        <p>© 2020 <a href="https://hasthemes.com/">Toro.</a> All rights reserved.</p>
+                        <p>© 2020 <a href="/">Glowhite Cosmetics</a> All rights reserved.</p>
                     </div>
                 </div>
             </div>

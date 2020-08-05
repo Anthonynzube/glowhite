@@ -16,4 +16,4 @@
 <link rel="stylesheet" href="{{ asset('css/plugins/fullpage.css') }}">
 <link rel="stylesheet" href="{{ asset('css/plugins/jquery-ui.css') }}">
 <link rel="stylesheet" href="{{ asset('css/plugins/select2.min.css') }}">
-<link rel="stylesheet" href="{{ asset('css/style.min.css') }}">
+<link rel="stylesheet" href="{{ asset('css/style.css') }}">

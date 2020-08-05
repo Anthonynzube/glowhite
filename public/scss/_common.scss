@@ -22,7 +22,7 @@ body {
 body {
     line-height: 24px;
     font-size: 14px;
-    font-style: normal; 
+    font-style: normal;
     font-weight: 400;
     color: #262626;
     font-family: $poppins;
@@ -121,7 +121,7 @@ ul {
 }
 
 
-/*-- 
+/*--
     - Common Classes
 -----------------------------------------*/
 
@@ -1222,7 +1222,7 @@ a:hover {
 
 
 /***************************
-    Page section padding 
+    Page section padding
 ****************************/
 
 .ptb-0 {
@@ -1339,7 +1339,7 @@ a:hover {
 
 
 /***************************
-    Page section margin 
+    Page section margin
 ****************************/
 
 .mtb-0 {
@@ -1415,7 +1415,7 @@ a:hover {
 }
 
 
-/*-- 
+/*--
     - Input Placeholder
 -----------------------------------------*/
 
@@ -1491,7 +1491,7 @@ textarea:focus {
 }
 
 button, input, optgroup, select, textarea {
-    
+
 }
 
 .custom-container {
@@ -1559,7 +1559,7 @@ button, input, optgroup, select, textarea {
     padding-right: 15px;
     padding-left: 15px;
     position: relative;
-    width: 100%; 
+    width: 100%;
     min-height: 1px;
     @media #{$xx-layout} {
         flex: 0 0 25%;
@@ -1590,7 +1590,7 @@ button, input, optgroup, select, textarea {
             flex: 0 0 50%;
             max-width: 50%;
         }
-        
+
     }
     @media #{$sm-layout} {
         flex: 0 0 50%;
@@ -1609,7 +1609,7 @@ button, input, optgroup, select, textarea {
     padding-right: 15px;
     padding-left: 15px;
     position: relative;
-    width: 100%; 
+    width: 100%;
     min-height: 1px;
     @media #{$xx-layout} {
         flex: 0 0 33.333%;
@@ -1640,7 +1640,7 @@ button, input, optgroup, select, textarea {
             flex: 0 0 50%;
             max-width: 50%;
         }
-        
+
     }
     @media #{$sm-layout} {
         flex: 0 0 50%;
@@ -2098,8 +2098,8 @@ button, input, optgroup, select, textarea {
 
 
 
-/*-- 
-    Scroll Up 
+/*--
+    Scroll Up
 -----------------------------------------*/
 
 #scrollUp {
@@ -2256,7 +2256,7 @@ button, input, optgroup, select, textarea {
             z-index: 9;
         }
     }
-} 
+}
 @media #{$md-layout} {
     .res-white-overly-md {
         position: relative;
@@ -2272,7 +2272,7 @@ button, input, optgroup, select, textarea {
             z-index: 1;
         }
     }
-} 
+}
 
 .padding-120-row-col {
     .row {
@@ -2868,7 +2868,7 @@ button, input, optgroup, select, textarea {
             }
             .btn-viewmore-hover {
                 transform: translateY(0%);
-                background-color: #fc4f4f;
+                background-color: #EC1C24;
                 &.btn-hover-transition {
                     transition-delay: .15s;
                 }

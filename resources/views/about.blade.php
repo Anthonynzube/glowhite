@@ -24,42 +24,11 @@
                 </div>
                 <div class="col-lg-6">
                     <div class="skill-content">
-                        <h2>Fashion Luxury</h2>
-                        <p>Donec accumsan auctor iaculis. Sed suscipit arcu ligula, at egestas magna molestie a. Proin ac ex maximus, ultrices justo eget, sodal</p>
-                        <div class="skill-bar">
-                            <div class="skill-bar-item">
-                                <span>WEB DEVELOPMENT </span>
-                                <div class="progress">
-                                    <div class="progress-bar wow fadeInLeft" data-progress="95%" data-wow-duration="1.5s" data-wow-delay="1.2s">
-                                        <span class="text-top">95%</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="skill-bar-item">
-                                <span>DESIGN FOR SEO </span>
-                                <div class="progress">
-                                    <div class="progress-bar wow fadeInLeft" data-progress="85%" data-wow-duration="1.5s" data-wow-delay="1.2s">
-                                        <span class="text-top">85%</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="skill-bar-item">
-                                <span>DEDICATED SUPPORT</span>
-                                <div class="progress">
-                                    <div class="progress-bar wow fadeInLeft" data-progress="80%" data-wow-duration="1.5s" data-wow-delay="1.2s">
-                                        <span class="text-top">90%</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="skill-bar-item">
-                                <span>POWERFUL ADMIN INFERFACE</span>
-                                <div class="progress">
-                                    <div class="progress-bar wow fadeInLeft" data-progress="99%" data-wow-duration="1.5s" data-wow-delay="1.2s">
-                                        <span class="text-top">90%</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                        <h2>About Us</h2>
+                        <p>
+                            When it comes to skincare, there's no second-guessing our devotedness and commitment to giving you products you can trust. These products are formulated with you in mind. Every ingredient is carefully selected and scientifically manipulated using new and reliable technologies to be gentle and safe with maximum effectiveness. We’ve been in existence for 15 years and renowned for the production of high-quality products that can compete auspiciously with other products within and outside the country.
+                        </p>
+
                     </div>
                 </div>
             </div>
@@ -72,6 +41,7 @@
                     <div class="service-wrap-3 text-center mb-30">
                         <div class="service-icon-3">
                             <i class="dlicon business_bulb-62"></i>
+                            <i class="dlicon bus"></i>
                         </div>
                         <div class="service-content-3">
                             <h4>Brainstorming</h4>

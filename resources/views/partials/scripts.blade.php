@@ -37,9 +37,9 @@
 <script>
     function init() {
         var mapOptions = {
-            zoom: 11,
+            zoom: 14,
             scrollwheel: false,
-            center: new google.maps.LatLng(40.709896, -73.995481),
+            center: new google.maps.LatLng(6.4602823, 3.2455577),
             styles: [{
                 "featureType": "water",
                 "elementType": "geometry",
@@ -204,12 +204,29 @@
         var mapElement = document.getElementById('contact-map');
         var map = new google.maps.Map(mapElement, mapOptions);
         var marker = new google.maps.Marker({
-            position: new google.maps.LatLng(40.709896, -73.995481),
+            position: new google.maps.LatLng(6.4602823, 3.2455577),
             map: map,
-            icon: 'assets/images/icon-img/2.png',
+            icon: 'images/icon-img/2.png',
             animation: google.maps.Animation.BOUNCE,
             title: 'Snazzy!'
         });
     }
     google.maps.event.addDomListener(window, 'load', init);
+</script>
+<script>
+    window.addEventListener("resize", resizeHandler);
+
+    function resizeHandler() {
+        var winWidth  = window.innerWidth,
+            threshold = 767,
+            els       = document.getElementsByClassName('animated');
+
+        [].forEach.call(els, function (el) {
+            if (winWidth < threshold) {
+                el.removeAttribute("data-toggle");
+            } else {
+                el.setAttribute("data-toggle", "bar");
+            }
+        });
+    }
 </script>

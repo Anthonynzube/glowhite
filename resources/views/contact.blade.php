@@ -26,7 +26,7 @@
                 <div class="row">
                     <div class="col-xl-9 col-lg-8 col-md-7">
                         <div class="contact-form-area">
-                            <h2>Get a quote</h2>
+                            <h2>Say Hello! 😊</h2>
                             <form id="contact-form" action="assets/mail-php/mail.php" method="post">
                                 <div class="row">
                                     <div class="col-lg-12 col-md-12 col-12">
@@ -48,34 +48,27 @@
                     </div>
                     <div class="col-xl-3 col-lg-4 col-md-5">
                         <div class="contact-info-area">
-                            <h2>Get Info</h2>
+                            <h2>Our Info</h2>
                             <div class="contact-info-top">
                                 <div class="sin-contact-info-wrap mb-25">
                                     <div class="contact-icon">
                                         <i class="dlicon business_building"></i>
                                     </div>
                                     <div class="contact-address">
-                                        <span>Toro Headquarter</span>
-                                        <p>PO Box 16122 Collins Street West Victoria 8007 Australia</p>
-                                    </div>
-                                </div>
-                                <div class="sin-contact-info-wrap mb-25">
-                                    <div class="contact-icon">
-                                        <i class="dlicon business_building"></i>
-                                    </div>
-                                    <div class="contact-address">
-                                        <span>Toro Headquarter</span>
-                                        <p>PO Box 16122 Collins Street West Victoria 8007 Australia</p>
+                                        <span>Glowhite Headquarter</span>
+                                        <p>Plot 7, Diamond Plaza, BBA Trade Fair Complex, Badagry Expressway Lagos.</p>
                                     </div>
                                 </div>
                             </div>
                             <div class="contact-info-bottom">
                                 <ul>
-                                    <li><i class="dlicon ui-1_email-83"></i>info@la-studioweb.com</li>
-                                    <li><i class="dlicon ui-2_phone"></i>+812-466-7130</li>
+                                    <li><i class="dlicon ui-1_email-83"></i>hello@glowhitecosmetics.com</li>
+                                    <li><i class="dlicon ui-2_phone"></i>+2348135869604</li>
+                                    <li><i class="dlicon ui-2_phone"></i>+2348029493632</li>
+
                                 </ul>
                                 <div class="contact-info-social">
-                                    <a href="#"><i class="fa fa-facebook"></i></a>
+                                    <a href="#"><i class="fa fa-instagram"></i></a>
                                     <a href="#"><i class="fa fa-twitter"></i></a>
                                     <a href="#"><i class="fa fa-google-plus"></i></a>
                                     <a href="#"><i class="fa fa-youtube"></i></a>
