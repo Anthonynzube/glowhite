@@ -27204,13 +27204,11 @@ hr.style2{
     justify-content: space-around;
 }
 .moisturizer-content h2{
-    width: 440px;
     margin-top: 80px;
     text-align: left;
     color: #EC1C24;
 }
 .moisturizer-content p{
-    width: 524px;
     margin-top: 30px;
     text-align: left;
     font-weight: light;
@@ -27234,14 +27232,13 @@ hr.style2{
     font-weight: normal;
     color: #EC1C24;
 }
+
 .serum-content h2{
-    width: 440px;
     margin-top: 80px;
     text-align: left;
     color: #ffffff;
 }
 .serum-content p{
-    width: 524px;
     margin-top: 30px;
     text-align: left;
     font-weight: light;
@@ -27266,13 +27263,11 @@ hr.style2{
     color: #fff;
 }
 .cleanser-content h2{
-    width: 440px;
     margin-top: 80px;
     text-align: left;
     color: rgb(255, 145, 0);
 }
 .cleanser-content p{
-    width: 524px;
     margin-top: 30px;
     text-align: left;
     font-weight: light;
@@ -27297,13 +27292,11 @@ hr.style2{
     color: rgb(255, 145, 0);
 }
 .toolkit-content h2{
-    width: 440px;
     margin-top: 80px;
     text-align: left;
     color: #fff;
 }
 .toolkit-content p{
-    width: 524px;
     margin-top: 30px;
     text-align: left;
     font-weight: light;
