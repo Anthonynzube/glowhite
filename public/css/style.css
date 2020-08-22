@@ -16388,11 +16388,11 @@ body.body-menu-overlay::before {
     background-color: transparent;
     padding: 17px 22px;
 }
-.product-details-content .product-details-action-wrap .product-details-wishlist a:hover,
+/* .product-details-content .product-details-action-wrap .product-details-wishlist a:hover,
 .product-details-content .product-details-action-wrap .product-details-compare a:hover {
     background-color: #fc4f4f;
     color: #fff;
-}
+} */
 @media only screen and (max-width: 767px) {
     .product-details-content .product-details-action-wrap .product-details-wishlist.affiliate-res-xs {
         margin-bottom: 20px;
@@ -27145,10 +27145,13 @@ h3.cart-page-title {
 /* glowhite styles */
 
 @media only screen and (min-width: 1000px){
-    #glowhite-padding{
-    padding-top: 200px;
+    #glowhite-padding {
+        padding-top: 200px;
         padding-right: 150px;
         padding-left: 150px;
+    }
+    #glowhite-description {
+        padding-top: 150px;
     }
 }
 .checked {
@@ -27159,6 +27162,17 @@ h3.cart-page-title {
     line-height: 1;
     font-weight: 600;
     font-size: 12px;
+    letter-spacing: 1px;
+    color: #fff;
+    background-color: #EC1C24;
+    text-transform: uppercase;
+    padding: 15px 30px 16px;
+}
+#shop a {
+    display: inline-block;
+    line-height: 1;
+    font-weight: 600;
+    font-size: 15px;
     letter-spacing: 1px;
     color: #fff;
     background-color: #EC1C24;

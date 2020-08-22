@@ -1,6 +1,6 @@
 @extends('partials.app')
 
-@section('title', 'Tool Kit')
+@section('title', 'Toolkit')
 
 @section('content')
     <div class="product-area pt-50 pb-120 section-padding-3" id="glowhite-padding">
@@ -30,7 +30,7 @@
                             <div class="col-lg-4 col-md-6 col-sm-6 col-12">
                                 <div class="product-wrap mb-50">
                                     <div class="product-img mb-25">
-                                        <a href="product-details.html">
+                                        <a href="toolkit/{{$allToolkit->id}}/show">
                                             <img class="default-img" src="images/product/product-14.jpg" alt="">
                                         </a>
                                     </div>
@@ -58,7 +58,7 @@
                                                                         <div>
                                                                             <a href="#">Shop Now</a>
                                                                         </div>
-                                                                        <a href="#" id="product-details">See Full Product Details></a>
+                                                                        <a href="toolkit/{{$allToolkit->id}}/show" id="product-details">See Full Product Details></a>
 
                                                                     </div>
                                                                 </div>
@@ -92,7 +92,7 @@
                             <div class="col-lg-4 col-md-6 col-sm-6 col-12">
                                 <div class="product-wrap mb-50">
                                     <div class="product-img mb-25">
-                                        <a href="product-details.html">
+                                        <a href="toolkit/{{$pureCarrotToolkit->id}}/show">
                                             <img class="default-img" src="images/product/product-14.jpg" alt="">
                                         </a>
                                     </div>
@@ -120,7 +120,7 @@
                                                                         <div>
                                                                             <a href="#">Shop Now</a>
                                                                         </div>
-                                                                        <a href="#" id="product-details">See Full Product Details></a>
+                                                                        <a href="toolkit/{{$pureCarrotToolkit->id}}/show" id="product-details">See Full Product Details></a>
 
                                                                     </div>
                                                                 </div>
@@ -154,7 +154,7 @@
                             <div class="col-lg-4 col-md-6 col-sm-6 col-12">
                                 <div class="product-wrap mb-50">
                                     <div class="product-img mb-25">
-                                        <a href="product-details.html">
+                                        <a href="toolkit/{{$qwhiteToolkit->id}}/show">
                                             <img class="default-img" src="images/product/product-14.jpg" alt="">
                                         </a>
                                     </div>
@@ -182,7 +182,7 @@
                                                                         <div>
                                                                             <a href="#">Shop Now</a>
                                                                         </div>
-                                                                        <a href="#" id="product-details">See Full Product Details></a>
+                                                                        <a href="toolkit/{{$qwhiteToolkit->id}}/show" id="product-details">See Full Product Details></a>
 
                                                                     </div>
                                                                 </div>
@@ -216,7 +216,7 @@
                             <div class="col-lg-4 col-md-6 col-sm-6 col-12">
                                 <div class="product-wrap mb-50">
                                     <div class="product-img mb-25">
-                                        <a href="product-details.html">
+                                        <a href="toolkit/{{$otherToolkit->id}}/show">
                                             <img class="default-img" src="images/product/product-14.jpg" alt="">
                                         </a>
                                     </div>
@@ -244,7 +244,7 @@
                                                                         <div>
                                                                             <a href="#">Shop Now</a>
                                                                         </div>
-                                                                        <a href="#" id="product-details">See Full Product Details></a>
+                                                                        <a href="toolkit/{{$otherToolkit->id}}/show" id="product-details">See Full Product Details></a>
 
                                                                     </div>
                                                                 </div>

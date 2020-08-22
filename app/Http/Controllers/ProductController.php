@@ -49,9 +49,24 @@ class ProductController extends Controller
      * @param  \App\Product  $product
      * @return \Illuminate\Http\Response
      */
-    public function show(Product $product)
+    public function showMoisturizer(Product $product)
     {
-        //
+        return view('moisturizerDescription', compact('product'));
+    }
+
+    public function showSerum(Product $product)
+    {
+        return view('serumDescription', compact('product'));
+    }
+
+    public function showCleanser(Product $product)
+    {
+        return view('cleanserDescription', compact('product'));
+    }
+
+    public function showToolkit(Product $product)
+    {
+        return view('toolkitDescription', compact('product'));
     }
 
     /**

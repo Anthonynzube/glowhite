@@ -57,4 +57,5 @@ class PageController extends Controller
         $otherToolkits = DB::table('products')->where([['category_id', 4],['name', 'not like', '%qwhite%'],['name', 'not like', '%Pure%']])->get();
         return view('toolkit', \compact('allToolkits', 'pureCarrotToolkits', 'qwhiteToolkits', 'otherToolkits'));
     }
+    
 }

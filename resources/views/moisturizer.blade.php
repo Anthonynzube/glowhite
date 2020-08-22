@@ -30,7 +30,7 @@
                             <div class="col-lg-4 col-md-6 col-sm-6 col-12">
                                 <div class="product-wrap mb-50">
                                     <div class="product-img mb-25">
-                                        <a href="product-details.html">
+                                        <a href="moisturizers/{{$allMoisturizer->id}}/show">
                                             <img class="default-img" src="images/product/product-14.jpg" alt="">
                                         </a>
                                     </div>
@@ -55,9 +55,9 @@
                                                                         <h2>{!! nl2br(e($allMoisturizer->name)) !!}</h2>
                                                                         <p>{{$allMoisturizer->description}}</p><br>
                                                                         <div>
-                                                                            <a href="#">Shop Now</a>
+                                                                            <a href="">Shop Now</a>
                                                                         </div>
-                                                                        <a href="#" id="product-details">See Full Product Details></a>
+                                                                    <a href="moisturizers/{{$allMoisturizer->id}}/show" id="product-details">See Full Product Details></a>
                                                                     </div>
                                                                 </div>
                                                                 <div class="col-md-6 py-5 px-sm-5 my-auto">
@@ -91,7 +91,7 @@
                             <div class="col-lg-4 col-md-6 col-sm-6 col-12">
                                 <div class="product-wrap mb-50">
                                     <div class="product-img mb-25">
-                                        <a href="product-details.html">
+                                        <a href="moisturizers/{{$pureCarrotMoisturizer->id}}/show">
                                             <img class="default-img" src="images/product/product-14.jpg" alt="">
                                         </a>
                                     </div>
@@ -118,7 +118,7 @@
                                                                         <div>
                                                                             <a href="#">Shop Now</a>
                                                                         </div>
-                                                                        <a href="#" id="product-details">See Full Product Details></a>
+                                                                        <a href="moisturizers/{{$pureCarrotMoisturizer->id}}/show" id="product-details">See Full Product Details></a>
                                                                     </div>
                                                                 </div>
                                                                 <div class="col-md-6 py-5 px-sm-5 my-auto">
@@ -153,7 +153,7 @@
                             <div class="col-lg-4 col-md-6 col-sm-6 col-12">
                                 <div class="product-wrap mb-50">
                                     <div class="product-img mb-25">
-                                        <a href="product-details.html">
+                                        <a href="moisturizers/{{$qwhiteMoisturizer->id}}/show">
                                             <img class="default-img" src="images/product/product-14.jpg" alt="">
                                         </a>
                                     </div>
@@ -180,7 +180,7 @@
                                                                         <div>
                                                                             <a href="#">Shop Now</a>
                                                                         </div>
-                                                                        <a href="#" id="product-details">See Full Product Details></a>
+                                                                        <a href="moisturizers/{{$qwhiteMoisturizer->id}}/show" id="product-details">See Full Product Details></a>
                                                                     </div>
                                                                 </div>
                                                                 <div class="col-md-6 py-5 px-sm-5 my-auto">

@@ -30,7 +30,7 @@
                             <div class="col-lg-4 col-md-6 col-sm-6 col-12">
                                 <div class="product-wrap mb-50">
                                     <div class="product-img mb-25">
-                                        <a href="product-details.html">
+                                        <a href="serums/{{$allSerum->id}}/show">
                                             <img class="default-img" src="images/product/product-14.jpg" alt="">
                                         </a>
                                     </div>
@@ -57,7 +57,7 @@
                                                                         <div>
                                                                             <a href="#">Shop Now</a>
                                                                         </div>
-                                                                        <a href="#" id="product-details">See Full Product Details></a>
+                                                                        <a href="serums/{{$allSerum->id}}/show" id="product-details">See Full Product Details></a>
                                         
                                                                     </div>
                                                                 </div>
@@ -92,7 +92,7 @@
                             <div class="col-lg-4 col-md-6 col-sm-6 col-12">
                                 <div class="product-wrap mb-50">
                                     <div class="product-img mb-25">
-                                        <a href="product-details.html">
+                                        <a href="serums/{{$pureCarrotSerum->id}}/show">
                                             <img class="default-img" src="images/product/product-14.jpg" alt="">
                                         </a>
                                     </div>
@@ -119,7 +119,7 @@
                                                                         <div>
                                                                             <a href="#">Shop Now</a>
                                                                         </div>
-                                                                        <a href="#" id="product-details">See Full Product Details></a>
+                                                                        <a href="serums/{{$pureCarrotSerum->id}}/show" id="product-details">See Full Product Details></a>
                                         
                                                                     </div>
                                                                 </div>
@@ -153,7 +153,7 @@
                             <div class="col-lg-4 col-md-6 col-sm-6 col-12">
                                 <div class="product-wrap mb-50">
                                     <div class="product-img mb-25">
-                                        <a href="product-details.html">
+                                        <a href="serums/{{$qwhiteSerum->id}}/show">
                                             <img class="default-img" src="images/product/product-14.jpg" alt="">
                                         </a>
                                     </div>
@@ -180,7 +180,7 @@
                                                                         <div>
                                                                             <a href="#">Shop Now</a>
                                                                         </div>
-                                                                        <a href="#" id="product-details">See Full Product Details></a>
+                                                                        <a href="serums/{{$qwhiteSerum->id}}/show" id="product-details">See Full Product Details></a>
                                         
                                                                     </div>
                                                                 </div>
