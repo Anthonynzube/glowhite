@@ -30,3 +30,5 @@ Route::get('/cleansers/{product}/show', 'ProductController@showCleanser')->name(
 
 Route::get('/toolkit', 'PageController@toolkit')->name('toolkit');
 Route::get('/toolkit/{product}/show', 'ProductController@showToolkit')->name('showToolkit');
+
+Route::post('review', 'ReviewController@store')->name('storeReview');

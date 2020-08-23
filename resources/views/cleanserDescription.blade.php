@@ -47,13 +47,25 @@
                                     <h2 class="uppercase">{{$product->name}}</h2>
                                     <div class="product-details-ratting-wrap">
                                         <div class="product-details-ratting">
-                                            <i class="yellow fa fa-star"></i>
-                                            <i class="yellow fa fa-star"></i>
-                                            <i class="yellow fa fa-star"></i>
-                                            <i class="yellow fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
+
+                                            @foreach(range(1,5) as $i)
+                                                <span class="fa-stack" style="width:1em;">
+                                                    <i class="fa fa-star fa-stack-1x"></i>
+
+                                                    @if($averageProductRating > 0)
+                                                        @if($averageProductRating > 0.5)
+                                                            <i class="yellow fa fa-star fa-stack-1x"></i>
+                                                        @else
+                                                            <i class="yellow fa fa-star-half fa-stack-1x"  style="width:0.5em"></i>
+                                                        @endif
+                                                    @endif
+                                                    
+                                                    @php $averageProductRating--; @endphp
+                                                </span>
+                                            @endforeach
                                         </div>
-                                        <a href="#"> (1 customer review)</a>
+                                        
+                                        <p class="ml-2"> ({{$reviewCount}} customer reviews)</p>
                                     </div>
                                     {{-- <h3>$49.00</h3> --}}
                                     <div class="product-details-peragraph">
@@ -92,7 +104,7 @@
                             <div class="description-review-topbar nav">
                                 <a class="active" data-toggle="tab" href="#des-details1">Description</a>
                                 <a data-toggle="tab" href="#des-details2">Description of use</a>
-                                <a data-toggle="tab" href="#des-details3">Reviews (1)</a>
+                                <a data-toggle="tab" href="#des-details3">Reviews ({{$reviewCount}})</a>
                                 <a data-toggle="tab" href="#des-details4"> Vendors</a>
                             </div>
                             <div class="tab-content description-review-bottom">
@@ -114,90 +126,52 @@
                                 </div>
                                 <div id="des-details3" class="tab-pane ">
                                     <div class="review-wrapper">
-                                        <h2>1 review for Sleeve Button Cowl Neck</h2>
-                                        <div class="single-review">
-                                            <div class="review-img">
-                                                <img src="images/product-details/client-1.jpg" alt="">
-                                            </div>
-                                            <div class="review-content">
-                                                <div class="review-top-wrap">
-                                                    <div class="review-name">
-                                                        <h5><span>John Snow</span> - March 14, 2020</h5>
-                                                    </div>
-                                                    <div class="review-rating">
-                                                        <i class="yellow fa fa-star"></i>
-                                                        <i class="yellow fa fa-star"></i>
-                                                        <i class="yellow fa fa-star"></i>
-                                                        <i class="yellow fa fa-star"></i>
-                                                        <i class=" fa fa-star"></i>
+                                        @if ($reviewCount > 0)
+                                            <h2>{{$reviewCount}} review(s) for {{$product->name}}</h2>
+                                        
+                                            @foreach ($productReviews as $productReview)
+                                                <div class="single-review">
+                                                    <div class="review-content">
+                                                        <div class="review-top-wrap">
+                                                            <div class="review-name">
+                                                                <h5>
+                                                                    <span>{{$productReview->author}}</span> - {{date("d M Y", strtotime($productReview->created_at))}}
+                                                                </h5>
+                                                            </div>
+                                                            <div class="review-rating" id="rating"> 
+                                                                @foreach(range(1,5) as $i)
+                                                                    <span class="fa-stack" style="width:1em">
+                                                                        <i class="fa fa-star fa-stack-1x"></i>
+
+                                                                        @if($productReview->rating > 0)
+                                                                            @if($productReview->rating > 0.5)
+                                                                                <i class="yellow fa fa-star fa-stack-1x"></i>
+                                                                            @else
+                                                                                <i class="yellow fa fa-star-half fa-stack-1x"  style="width:0.5em"></i>
+                                                                            @endif
+                                                                        @endif
+                                                                        
+                                                                        @php $productReview->rating--; @endphp
+                                                                    </span>
+                                                                @endforeach
+                                                            </div>
+                                                        </div>
+                                                        <p>{{$productReview->body}}</p>
                                                     </div>
                                                 </div>
-                                                <p>Donec accumsan auctor iaculis. Sed suscipit arcu ligula, at egestas magna molestie a. Proin ac ex maximus, ultrices justo eget, sodales orci. Aliquam egestas libero ac turpis pharetra, in vehicula lacus scelerisque</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="ratting-form-wrapper">
-                                        <span>Add a Review</span>
-                                        <p>Your email address will not be published. Required fields are marked <span>*</span></p>
-                                        <div class="ratting-form">
-                                            <form action="#">
-                                                <div class="row">
-                                                    <div class="col-lg-3 col-md-6">
-                                                        <div class="rating-form-style mb-20">
-                                                            <label>Name <span>*</span></label>
-                                                            <input type="text">
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-lg-3 col-md-6">
-                                                        <div class="rating-form-style mb-20">
-                                                            <label>Email <span>*</span></label>
-                                                            <input type="email">
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-lg-12">
-                                                        <div class="star-box-wrap">
-                                                            <div class="single-ratting-star">
-                                                                <a href="#"><i class="fa fa-star"></i></a>
-                                                            </div>
-                                                            <div class="single-ratting-star">
-                                                                <a href="#"><i class="fa fa-star"></i></a>
-                                                                <a href="#"><i class="fa fa-star"></i></a>
-                                                            </div>
-                                                            <div class="single-ratting-star">
-                                                                <a href="#"><i class="fa fa-star"></i></a>
-                                                                <a href="#"><i class="fa fa-star"></i></a>
-                                                                <a href="#"><i class="fa fa-star"></i></a>
-                                                            </div>
-                                                            <div class="single-ratting-star">
-                                                                <a href="#"><i class="fa fa-star"></i></a>
-                                                                <a href="#"><i class="fa fa-star"></i></a>
-                                                                <a href="#"><i class="fa fa-star"></i></a>
-                                                                <a href="#"><i class="fa fa-star"></i></a>
-                                                            </div>
-                                                            <div class="single-ratting-star">
-                                                                <a href="#"><i class="fa fa-star"></i></a>
-                                                                <a href="#"><i class="fa fa-star"></i></a>
-                                                                <a href="#"><i class="fa fa-star"></i></a>
-                                                                <a href="#"><i class="fa fa-star"></i></a>
-                                                                <a href="#"><i class="fa fa-star"></i></a>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-md-12">
-                                                        <div class="rating-form-style mb-20">
-                                                            <label>Your review <span>*</span></label>
-                                                            <textarea name="Your Review"></textarea>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-lg-12">
-                                                        <div class="form-submit">
-                                                            <input type="submit" value="Submit">
-                                                        </div>
-                                                    </div>
+                                            @endforeach
+                                        @else
+                                            <h2>No review for {{$product->name}}</h2>
+                                            <div class="single-review">
+                                                <div class="review-content">
+                                                    <p>Be the first to review this product</p>
                                                 </div>
-                                            </form>
-                                        </div>
+                                            </div>
+                                        @endif
+
+                                        
                                     </div>
+                                    @include('partials.reviewForm')
                                 </div>
                                 <div id="des-details4" class="tab-pane ">
                                     <div class="pro-dec-brand-wrap">
@@ -225,7 +199,7 @@
                 </div>
             </div>
         </div>
-        <div class="small-device-area d-block d-md-none">
+        {{-- <div class="small-device-area d-block d-md-none">
             <div class="container-fluid">
                 <div class="pro-dec-small-device">
                     <div class="pro-details-sidebar-active slider-nav-style-3 owl-carousel">
@@ -266,7 +240,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> --}}
         <div class="related-product-area section-padding-1 pb-95">
             <div class="container-fluid">
                 <div class="section-title-6 mb-50">

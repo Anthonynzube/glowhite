@@ -14,11 +14,6 @@ class ProductController extends Controller
      */
     public function index()
     {
-        // return $allProducts = DB::table('products')->get();
-        // return $allMoisturizers = DB::table('products')->where('category_id', 1)->get();
-        // return $pureCarrotMoisturizers = DB::table('products')->where([['category_id', 1],['name', 'like', '%Pure%']])->get();
-        // return $qwhiteMoisturizers = DB::table('products')->where([['category_id', 1],['name', 'like', '%qwhite%']])->get();
-
         return view('moisturizer');
     }
 
@@ -51,22 +46,34 @@ class ProductController extends Controller
      */
     public function showMoisturizer(Product $product)
     {
-        return view('moisturizerDescription', compact('product'));
+        $reviewCount = $product->reviews->count();
+        $productReviews = $product->reviews;
+        $averageProductRating = $productReviews->avg('rating');
+        return view('moisturizerDescription', compact('product', 'reviewCount', 'productReviews', 'averageProductRating'));
     }
 
     public function showSerum(Product $product)
     {
-        return view('serumDescription', compact('product'));
+        $reviewCount = $product->reviews->count();
+        $productReviews = $product->reviews;
+        $averageProductRating = $productReviews->avg('rating');
+        return view('serumDescription', compact('product', 'reviewCount', 'productReviews', 'averageProductRating'));
     }
 
     public function showCleanser(Product $product)
     {
-        return view('cleanserDescription', compact('product'));
+        $reviewCount = $product->reviews->count();
+        $productReviews = $product->reviews;
+        $averageProductRating = $productReviews->avg('rating');
+        return view('cleanserDescription', compact('product', 'reviewCount', 'productReviews', 'averageProductRating'));
     }
 
     public function showToolkit(Product $product)
     {
-        return view('toolkitDescription', compact('product'));
+        $reviewCount = $product->reviews->count();
+        $productReviews = $product->reviews;
+        $averageProductRating = $productReviews->avg('rating');
+        return view('toolkitDescription', compact('product', 'reviewCount', 'productReviews', 'averageProductRating'));
     }
 
     /**

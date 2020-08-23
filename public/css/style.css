@@ -23893,12 +23893,12 @@ body.body-menu-overlay::before {
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
     .product-dec-right {
-        width: calc(100% - 130px);
+        width: 100%;
     }
 }
 @media only screen and (max-width: 767px) {
     .product-dec-right {
-        width: calc(100% - 100px);
+        width: 100%;
     }
 }
 .product-dec-left {
@@ -27153,6 +27153,9 @@ h3.cart-page-title {
     #glowhite-description {
         padding-top: 150px;
     }
+    #rating{
+        padding-left: 800px;
+    }
 }
 .checked {
     color: orange;
@@ -27347,4 +27350,13 @@ hr.style2{
 }
 .gold a.active {
     border-bottom: 2px solid #FF9100 !important;
+}
+.ratting-form-wrapper .ratting-form .rating-form-style select {
+    background: transparent;
+    border: 1px solid #cdcdcd;
+    height: 50px;
+    padding: 5px 10px;
+}
+.ratting-form-wrapper .ratting-form .rating-form-style select:focus {
+    border: 1px solid #262626;
 }
