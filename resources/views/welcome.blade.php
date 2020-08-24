@@ -1,100 +1,126 @@
-<!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+@extends('partials.homeApp')
 
-        <title>Laravel</title>
+@section('title', 'Home')
 
-        <!-- Fonts -->
-        <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
+@section('content')
 
-        <!-- Styles -->
-        <style>
-            html, body {
-                background-color: #fff;
-                color: #636b6f;
-                font-family: 'Nunito', sans-serif;
-                font-weight: 200;
-                height: 100vh;
-                margin: 0;
-            }
-
-            .full-height {
-                height: 100vh;
-            }
-
-            .flex-center {
-                align-items: center;
-                display: flex;
-                justify-content: center;
-            }
-
-            .position-ref {
-                position: relative;
-            }
-
-            .top-right {
-                position: absolute;
-                right: 10px;
-                top: 18px;
-            }
-
-            .content {
-                text-align: center;
-            }
-
-            .title {
-                font-size: 84px;
-            }
-
-            .links > a {
-                color: #636b6f;
-                padding: 0 25px;
-                font-size: 13px;
-                font-weight: 600;
-                letter-spacing: .1rem;
-                text-decoration: none;
-                text-transform: uppercase;
-            }
-
-            .m-b-md {
-                margin-bottom: 30px;
-            }
-        </style>
-    </head>
-    <body>
-        <div class="flex-center position-ref full-height">
-            @if (Route::has('login'))
-                <div class="top-right links">
-                    @auth
-                        <a href="{{ url('/home') }}">Home</a>
-                    @else
-                        <a href="{{ route('login') }}">Login</a>
-
-                        @if (Route::has('register'))
-                            <a href="{{ route('register') }}">Register</a>
-                        @endif
-                    @endauth
-                </div>
-            @endif
-
-            <div class="content">
-                <div class="title m-b-md">
-                    Laravel
-                </div>
-
-                <div class="links">
-                    <a href="https://laravel.com/docs">Docs</a>
-                    <a href="https://laracasts.com">Laracasts</a>
-                    <a href="https://laravel-news.com">News</a>
-                    <a href="https://blog.laravel.com">Blog</a>
-                    <a href="https://nova.laravel.com">Nova</a>
-                    <a href="https://forge.laravel.com">Forge</a>
-                    <a href="https://vapor.laravel.com">Vapor</a>
-                    <a href="https://github.com/laravel/laravel">GitHub</a>
+    <div id="fullpage">
+        <div class="section single-full-slider height-100vh bg-img d-flex align-items-center" style="background-color: #f7f7f7">
+            <div class="container-fluid p-0">
+                <div class="row no-gutters align-items-center">
+                    <div class="custom-col-width-fullpage-41">
+                        <div class="fullpage-first-slide-content fullpage-pl-300">
+                            <h2 class="wow fadeInLeft" data-wow-delay="1.25s" style="color: #6F6F6F;">Lightening Toning Creamy, <br>Moisturizers</h2>
+                            <div class="btn-style-1 wow fadeInUp" data-wow-delay="1.25s">
+                                <a href="{{ route('moisturizers') }}" style="border: 2px solid #EC1C24;">
+                                    <div class=" btn-ptb-3 btn-viewmore-common btn-font-2 btn-letter-sp">
+                                        <span style="color: #EC1C24">DISCOVER NOW</span>
+                                    </div>
+                                    <div class="btn-viewmore-hover-m btn-ptb-3 btn-viewmore-common btn-font-2 btn-letter-sp">
+                                        <span>DISCOVER NOW</span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="custom-col-width-fullpage-58">
+                        <div class="fullpage-one-img wow zoomIn" data-wow-delay="1.25s">
+                            <img src="{{ asset('images/ture-carrot-lotion-series.png') }}" alt="">
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-    </body>
+        <div class="section single-full-slider height-100vh bg-img d-flex align-items-center" style="background-color: #EC1C24">
+            <div class="container-fluid p-0">
+                <div class="row no-gutters align-items-center">
+                    <div class="custom-col-width-fullpage-42">
+                        <div class="fullpage-first-slide-content fullpage-pl-300">
+                            <h2 class="wow bounceInLeft" data-wow-delay="1" style="color: #fff7f7">Extra Whitening, <br>Moisturizing Serums</h2>
+                            <div class="btn-style-1 wow bounceInLeft" data-wow-delay="1">
+                                <a href="{{ route('serums') }}" style="border: 2px solid #fff7f7">
+                                    <div class="btn-ptb-3 btn-viewmore-common btn-font-2 btn-letter-sp">
+                                        <span style="color: #fff7f7">DISCOVER NOW</span>
+                                    </div>
+                                    <div class="btn-viewmore-hover-s btn-ptb-3 btn-viewmore-common btn-font-2 btn-letter-sp">
+                                        <span>DISCOVER NOW</span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="custom-col-width-fullpage-57">
+                        <div class="fullpage-two-img wow bounceInRight" data-wow-delay="1">
+                            <img src="{{ asset('images/ture-carrot-lotion-series.png') }}" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section single-full-slider height-100vh bg-img d-flex align-items-center"  style="background-color: #FFF9D9">
+            <div class="container-fluid p-0">
+                <div class="row no-gutters align-items-center ">
+                    <div class="custom-col-width-fullpage-56">
+                        <div class="fullpage-three-img fullpage-pl-345 wow bounceInLeft" data-wow-delay="1">
+                            <img src="{{ asset('images/ture-carrot-lotion-series.png') }}" alt="">
+                        </div>
+                    </div>
+                    <div class="custom-col-width-fullpage-43">
+                        <div class="fullpage-first-slide-content fullpage-pl-80">
+                            <h2 class=" wow bounceInRight" data-wow-delay="1" style="color: #FF9100">Exfoliating, Refreshing, <br>Lightening Cleansers</h2>
+                            <div class="btn-style-1 wow bounceInRight" data-wow-delay="1">
+                                <a href="{{ route('cleansers') }}" style="border: 2px solid #FF9100">
+                                    <div class="btn-ptb-3 btn-viewmore-common btn-font-2 btn-letter-sp">
+                                        <span style="color: #FF9100">DISCOVER NOW</span>
+                                    </div>
+                                    <div class="btn-viewmore-hover-c btn-ptb-3 btn-viewmore-common btn-font-2 btn-letter-sp">
+                                        <span>DISCOVER NOW</span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section single-full-slider height-100vh bg-img d-flex align-items-center"  style="background-color: #FF9100">
+            <div class="container-fluid p-0">
+                <div class="row no-gutters align-items-center ">
+                    <div class="custom-col-width-fullpage-47">
+                        <div class="fullpage-four-img fullpage-pl-230 wow bounceInLeft" data-wow-delay="1">
+                            <img src="{{ asset('images/ture-carrot-lotion-series.png') }}" alt="">
+                        </div>
+                    </div>
+                    <div class="custom-col-width-fullpage-50">
+                        <div class="fullpage-first-slide-content fullpage-pl-150">
+                            <h2 class="wow bounceInRight" data-wow-delay="1" style="color: #fff7f7">"Heal Your Skin" <br>Toolkit</h2>
+                            <div class="btn-style-1 wow bounceInRight" data-wow-delay="1">
+                                <a href="{{ route('toolkit') }}" style="border: 2px solid #fff7f7">
+                                    <div class="btn-ptb-3 btn-viewmore-common btn-font-2 btn-letter-sp">
+                                        <span style="color:  #fff7f7">DISCOVER NOW</span>
+                                    </div>
+                                    <div class="btn-viewmore-hover-t btn-ptb-3 btn-viewmore-common btn-font-2 btn-letter-sp">
+                                        <span>DISCOVER NOW</span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="support-lists">
+        <ul>
+            <li><a href="#"><i class="dlicon ui-3_chat-46"></i></a></li>
+            <li><a href="#"><i class=" dlicon ui-3_phone"></i></a></li>
+            <li><a href="#"><i class="dlicon ui-1_email-85"></i></a></li>
+        </ul>
+    </div>
+</div>
+
+@include('partials.scripts')
+</body>
+
 </html>
+@endsection
