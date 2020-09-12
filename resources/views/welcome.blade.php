@@ -119,6 +119,36 @@
     </div>
 </div>
 
+<!--news letter popup start-->
+<div class="newletter-popup">
+    <div id="popup2">
+        <span class="b-close"><span><i class="dlicon ui-1_simple-remove"></i></span></span>
+    </div>
+    <div class="popup-wrapper-all">
+        <div class="popup-subscribe-area">
+            <span>Don't Miss Out</span>
+            <h2>Sign up for $5 dollars off your first purchase</h2>
+            <div class="subscribe-bottom">
+                <form action="{{route('newsletter')}}" method="post" name="mc-embedded-subscribe-form" class="validate">
+                    @csrf
+                    <div class="mc-form">
+                        <input type="email" value="" name="email" class="email" placeholder="Your email address…" required>
+                        <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                        <div class="mc-news" aria-hidden="true"><input type="text" name="b_6bbb9b6f5827bd842d9640c82_05d85f18ef" tabindex="-1" value=""></div>
+                        <div class="clear-2"><input type="submit" value="Join Our Journey" name="subscribe" class="button"></div>
+                    </div>
+                </form>
+            </div>
+            <div class="dont-show mt-15">
+                <input type="checkbox" id="newsletter_popup_dont_show_again">
+                <label for="newsletter_popup_dont_show_again">Do not show popup anymore</label>
+            </div>
+        </div>
+        <div class="popup-image">
+            <img src="{{ asset('images/banner/newletter-popup.jpg') }}" alt="banner">
+        </div>
+    </div>
+</div>
 @include('partials.scripts')
 </body>
 

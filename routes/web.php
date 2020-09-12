@@ -32,3 +32,5 @@ Route::get('/toolkit', 'PageController@toolkit')->name('toolkit');
 Route::get('/toolkit/{product}/show', 'ProductController@showToolkit')->name('showToolkit');
 
 Route::post('review', 'ReviewController@store')->name('storeReview');
+
+Route::post('/', 'NewsletterController@store')->name('newsletter');
